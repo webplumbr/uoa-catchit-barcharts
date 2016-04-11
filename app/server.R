@@ -54,7 +54,7 @@ shinyServer(
       input$selectArea
       isolate({
         ## **** Prasanna - add the correct path name here (including the trailing /) ****
-        pathName <- "/data/" # e.g. pathName <- "/home/fewster/BARCHART/"
+        pathName <- "/srv/csv-downloads/" # e.g. pathName <- "/home/fewster/BARCHART/"
         ## Area name.csv
         ## Strip out spaces, add pathName, "AllTime" and "TrapChecks.csv" to create the CSV name:
         csvname <- paste0(pathName, "AllTime", gsub(pattern=" ", replacement="", x=input$selectArea), "TrapChecks.csv")

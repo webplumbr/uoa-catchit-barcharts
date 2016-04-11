@@ -5,7 +5,7 @@ MAINTAINER ws@sit.auckland.ac.nz
 # Edit the following environment variable, commit to Github and it will trigger Docker build
 # Since we fetch the latest changes from the associated Application~s master branch
 # this helps trigger date based build
-ENV LAST_BUILD_DATE "Wed Mar 30 23:54:00 NZDT 2016"
+ENV LAST_BUILD_DATE "Wed Apr 11 12:13:00 NZDT 2016"
 
 # copy over the app folder with data samples
 COPY app/* /srv/shiny-server/
